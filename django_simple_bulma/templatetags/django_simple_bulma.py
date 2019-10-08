@@ -64,3 +64,16 @@ def font_awesome():
     )
 
     return mark_safe(cdn_link)  # noqa
+
+@register.simple_tag
+def materialicons():
+    """
+    Return the latest Material Design Icons CDN link.
+    """
+
+    cdn_link = (
+        '<link rel="stylesheet" '
+        'href="https://fonts.googleapis.com/icon?family=Material+Icons" '
+    )
+
+    return mark_safe(cdn_link)  # noqa
