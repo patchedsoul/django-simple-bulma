@@ -73,7 +73,7 @@ def materialicons():
 
     cdn_link = (
         '<link rel="stylesheet" '
-        'href="https://fonts.googleapis.com/icon?family=Material+Icons" '
+        'https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" '
     )
 
     return mark_safe(cdn_link)  # noqa
